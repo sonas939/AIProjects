@@ -1,0 +1,54 @@
+	Scenario
+	Command Line Inputs
+	Model Output
+	DPLL Calls w/out UCH
+	DPLL Calls w/ UCH
+	mapcolor
+	DPLL.py mapcolor.cnf 
+	WAR NTG SAB QR NSWG VR TR 
+	36
+	34
+	mapcolor2
+	DPLL.py mapcolor.cnf QG 
+	WAG NTR SAB QG NSWR VG TR
+	74
+	48
+	mapcolor3
+	DPLL.py mapcolor.cnf QG VB 
+	unsatisfiable
+	155
+	70
+	sammy_scenarioA
+	DPLL.py sammy.cnf O1Y O2W O3Y L1W L2Y L3B 
+	C1B O1Y O2W C2W O3Y C3Y L1W L2Y L3B 
+	148
+	50
+	sammy_scenarioB
+	DPLL.py sammy.cnf O1W L2B L3B O2Y O3W L1W 
+	O1W C1B O2Y C2Y O3W C3W L1W L2B L3B 
+	206
+	50
+	3queens
+	DPLL.py 3queens.cnf 
+	unsatisfiable
+	43
+	34
+	4queens
+	DPLL.py 4queens.cnf 
+	Q12 Q24 Q31 Q43 
+	71
+	56
+	5queens
+	DPLL.py 5queens.cnf 
+	Q11 Q23 Q35 Q42 Q54 
+	46
+	36
+	6queens
+	DPLL.py 6queens.cnf 
+	Q12 Q24 Q36 Q41 Q53 Q65 
+	483
+	384
+	
+
+* For all command line inputs, +UCH was added to receive the number of DPLL calls with UCH.
+* Please note a RESULT.pdf was also turned in since it is easier to read. 

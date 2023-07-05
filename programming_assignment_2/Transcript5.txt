@@ -1,0 +1,77 @@
+Welcome to Tic-Tac-Toe
+. . . 
+. . . 
+. . . 
+
+> pruning
+pruning=0
+
+> move X B 2
+. . . 
+. X . 
+. . . 
+
+> move O A 2
+. O . 
+. X . 
+. . . 
+
+> choose X
+move (A,1) mm-score: 0.6
+move (A,3) mm-score: 0.0
+move (B,1) mm-score: 0.6
+move (B,3) mm-score: 0.0
+move (C,1) mm-score: 0.6
+move (C,2) mm-score: 0.0
+move (C,3) mm-score: 0.0
+number of nodes searched: 4034
+X O . 
+. X . 
+. . . 
+
+> choose O
+move (A,3) mm-score: -0.9
+move (B,1) mm-score: -0.9
+move (B,3) mm-score: -0.9
+move (C,1) mm-score: -0.9
+move (C,2) mm-score: -0.9
+move (C,3) mm-score: -0.7
+number of nodes searched: 624
+X O . 
+. X . 
+. . O 
+
+> choose X
+move (A,3) mm-score: 0.0
+move (B,1) mm-score: 0.6
+move (B,3) mm-score: 0.0
+move (C,1) mm-score: 0.8
+move (C,2) mm-score: 0.0
+number of nodes searched: 148
+X O . 
+. X . 
+X . O 
+
+> choose O
+move (A,3) mm-score: -0.9
+move (B,1) mm-score: -0.9
+move (B,3) mm-score: -0.9
+move (C,2) mm-score: -0.9
+number of nodes searched: 25
+X O O 
+. X . 
+X . O 
+
+> choose X
+move (B,1) mm-score: 1.0
+move (B,3) mm-score: 0.0
+move (C,2) mm-score: -0.9
+number of nodes searched: 6
+X O O 
+X X . 
+X . O 
+
+*** X wins! ***
+Board has been reset. Type quit to exit the game. 
+
+> quit
